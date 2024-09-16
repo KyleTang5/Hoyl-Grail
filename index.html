@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holy Grail</title>
+</head>
+<style>
+
+    header {
+
+        width: 90%;
+
+        height: 100px;
+
+        background-color: #8DAD8B;
+
+        border: 3px solid green;
+
+        padding: 10px;
+
+        margin: 25px;
+
+    }
+
+
+
+    nav {
+
+        position: fixed;
+
+        width: 90%;
+
+        height: 50px;
+
+        background-color: #5A8457;
+
+        position: fixed;
+
+        top: 170px;
+
+        left: 35px;
+
+    }
+
+
+
+    article {
+
+        width: 65%;
+
+        height: 200px;
+
+        background-color: #4B594A;
+
+        border: 5px solid #5A8457;
+
+        position: relative;
+
+        top: 15px;
+
+    }
+
+
+
+    aside {
+
+        width: 40%;
+
+        height: 420px;
+
+        background-color: #5A8457;
+
+        position: absolute;
+
+        left: 50%;
+
+        right: 10%;
+
+        top: 235px;
+
+    }
+
+
+
+    footer {
+
+        width: 100%;
+
+        height: 50px;
+
+        background-color: #8DAD8B;
+
+        position: fixed;
+
+        bottom: 0px;
+
+    }
+
+
+
+    .articles {
+
+        position: relative;
+
+        left: 30px;
+
+        top: 45px;
+
+        width: 65%;
+
+        height: 70%;
+
+    }
+
+</style>
+<body>
+    <header>The header is placed statically at the top of the page</header>
+
+    <nav>The nav is using fixed positioning so it always stays in the same place even when scrolling and it is 170px from the top and 35px from the left.</nav>
+
+    <div>
+
+        <div class="articles">
+
+            <article>The article is using relative positioning and is placed 15px down from where it is normally placed</article>
+
+            <article></article>
+
+        </div>
+
+    <aside>THe aside is using absolute positioning and is placed 50% from the left and 10% from the right, and 235px from the top.</aside>
+
+    </div>
+
+    <footer>the footer is position using fixed positioning to keep it in place like the nav so when you scroll it will remain there and is 0px from the bottom so it will always be at the bottom.</footer>
+</body>
+</html>
